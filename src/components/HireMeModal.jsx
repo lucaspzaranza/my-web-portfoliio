@@ -4,8 +4,8 @@ import Button from './reusable/Button';
 
 const selectOptions = [
 	'Aplicação Web',
-	'Aplicação Mobile',
-	'Desenvolvimento de Jogos'
+	'Desenvolvimento de Games',
+	// 'Aplicação Mobile',
 	// 'UI/UX Design',
 	// 'Branding',
 ];
