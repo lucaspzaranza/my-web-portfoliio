@@ -4,7 +4,8 @@ import {
 	FiLinkedin,
 	FiGlobe,
 	FiYoutube,
-	FiInstagram
+	FiInstagram,
+	FiPhoneCall
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -12,6 +13,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
+		//icon: <FiPhoneCall />,
 		url: 'https://lucaszaranza.netlify.app/',
 	},
 	{
@@ -19,25 +21,20 @@ const socialLinks = [
 		icon: <FiGithub />,
 		url: 'https://github.com/lucaspzaranza',
 	},
-	// {
-	// 	id: 3,
-	// 	icon: <FiTwitter />,
-	// 	url: 'https://twitter.com/realstoman',
-	// },
 	{
-		id: 4,
+		id: 3,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/lucas-zaranza-74157a60/',
 	},
-	// {
-	// 	id: 5,
-	// 	icon: <FiYoutube />,
-	// 	url: 'https://www.youtube.com/c/realstoman',
-	// },
 	{
-		id: 6,
+		id: 4,
 		icon: <FiInstagram />,
 		url: 'https://www.instagram.com/lucaspzaranza/',
+	},
+	{
+		id: 5,
+		icon: <FiPhoneCall />,
+		url: 'https://api.whatsapp.com/send?phone=5585992305016',
 	},
 ];
 
